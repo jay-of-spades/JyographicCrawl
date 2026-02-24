@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Surya's Command",
+    "type": "Gemstone (Ruby)",
+    "rulingPlanet": "Sun",
+    "manaCost": 3,
+    "effect": "Clears 1 house of Tamasic fog. Grants +2 Strength to Lagna Lord.",
+    "description": "The absolute authority of the Sun. Highly effective against Saturnian debuffs, but burns Venus if placed in the same house."
+  },
+  {
+    "id": 2,
+    "name": "Chandra's Shield",
+    "type": "Mantra (Om Namah Shivaya)",
+    "rulingPlanet": "Moon",
+    "manaCost": 2,
+    "effect": "Restores +5 Prana (Health) and neutralizes one Ashtamastha (8th house) curse.",
+    "description": "Cooling and restorative. Essential for surviving the Sade Sati levels or heavy Maraka transits."
+  },
+  {
+    "id": 3,
+    "name": "Mangal's Strike",
+    "type": "Tantra",
+    "rulingPlanet": "Mars",
+    "manaCost": 4,
+    "effect": "Deals 6 damage to an enemy Graha. If played in the 3rd or 6th house, deals double damage.",
+    "description": "The fiery spear of the commander. Powerful, but playing it in the 4th or 7th house triggers a Mangal Dosha penalty to your own defenses."
+  }
+]
