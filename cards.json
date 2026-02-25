@@ -4,6 +4,7 @@
     "name": "Surya's Command",
     "type": "Gemstone (Ruby)",
     "rulingPlanet": "Sun",
+    "image": "images/surya0001.jpg",
     "manaCost": 3,
     "effect": "Clears 1 house of Tamasic fog. Grants +2 Strength to Lagna Lord.",
     "description": "The absolute authority of the Sun. Highly effective against Saturnian debuffs, but burns Venus if placed in the same house."
@@ -13,6 +14,7 @@
     "name": "Chandra's Shield",
     "type": "Mantra (Om Namah Shivaya)",
     "rulingPlanet": "Moon",
+    "image": "images/chandra0001.jpg",
     "manaCost": 2,
     "effect": "Restores +5 Prana (Health) and neutralizes one Ashtamastha (8th house) curse.",
     "description": "Cooling and restorative. Essential for surviving the Sade Sati levels or heavy Maraka transits."
@@ -22,8 +24,69 @@
     "name": "Mangal's Strike",
     "type": "Tantra",
     "rulingPlanet": "Mars",
+    "image": "https://placehold.co/400x250/111/D4AF37?text=MANGAL+(MARS)",
     "manaCost": 4,
     "effect": "Deals 6 damage to an enemy Graha. If played in the 3rd or 6th house, deals double damage.",
     "description": "The fiery spear of the commander. Powerful, but playing it in the 4th or 7th house triggers a Mangal Dosha penalty to your own defenses."
+  },
+  {
+    "id": 4,
+    "name": "Budha's Calculation",
+    "type": "Yantra",
+    "rulingPlanet": "Mercury",
+    "image": "https://placehold.co/400x250/111/D4AF37?text=BUDHA+(MERCURY)",
+    "manaCost": 2,
+    "effect": "Draw 2 additional cards. If the Prashna Lagna is Gemini or Virgo, draw 3.",
+    "description": "The rapid intellect of the prince. Excellent for cycling through your deck, but easily influenced by malefic cards in your hand."
+  },
+  {
+    "id": 5,
+    "name": "Guru's Blessing",
+    "type": "Mantra",
+    "rulingPlanet": "Jupiter",
+    "image": "https://placehold.co/400x250/111/D4AF37?text=GURU+(JUPITER)",
+    "manaCost": 5,
+    "effect": "Grants complete immunity to all debuffs for 2 turns. Expands max Prana by +10.",
+    "description": "The ultimate Bhavottama protection. A heavy cost, but provides massive, expansive shielding against Saturn and Rahu strikes."
+  },
+  {
+    "id": 6,
+    "name": "Shukra's Sanjivani",
+    "type": "Tantra",
+    "rulingPlanet": "Venus",
+    "image": "https://placehold.co/400x250/111/D4AF37?text=SHUKRA+(VENUS)",
+    "manaCost": 4,
+    "effect": "Resurrects one defeated Graha or restores Lagna health to 100%.",
+    "description": "The secret knowledge of the Asura Guru. Beautiful and restorative, but blinds the player to illusions (Rahu) for 1 turn."
+  },
+  {
+    "id": 7,
+    "name": "Shani's Delay",
+    "type": "Curse",
+    "rulingPlanet": "Saturn",
+    "image": "https://placehold.co/400x250/111/D4AF37?text=SHANI+(SATURN)",
+    "manaCost": 6,
+    "effect": "Locks the enemy's highest-cost card for 3 turns. Deals 2 damage per turn.",
+    "description": "The slow, crushing weight of karma. Incredibly heavy to cast, but permanently alters the structure of the battlefield."
+  },
+  {
+    "id": 8,
+    "name": "Rahu's Eclipse",
+    "type": "Illusion",
+    "rulingPlanet": "Rahu",
+    "image": "https://placehold.co/400x250/111/D4AF37?text=RAHU+(NORTH+NODE)",
+    "manaCost": 3,
+    "effect": "Steals 1 random card from the enemy's hand and changes its ruling planet to Rahu.",
+    "description": "Sudden, explosive, and deceptive. Breaks the standard rules of the game but generates massive karmic debt."
+  },
+  {
+    "id": 9,
+    "name": "Ketu's Severance",
+    "type": "Moksha",
+    "rulingPlanet": "Ketu",
+    "image": "https://placehold.co/400x250/111/D4AF37?text=KETU+(SOUTH+NODE)",
+    "manaCost": 1,
+    "effect": "Destroys all cards (both yours and the enemy's) currently on the board.",
+    "description": "The headless monk. Absolute detachment. Use only when the board is overwhelmed and you must wipe the slate clean."
   }
 ]

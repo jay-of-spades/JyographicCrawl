@@ -15,6 +15,7 @@ fetch('cards.json')
       // Inject the Jyotish data into the HTML structure
       cardElement.innerHTML = `
                 <div class="card-title">${card.name}</div>
+                <img src="${card.image}" alt="${card.name}" class="card-image">
                 <div class="card-planet">Ruling: ${card.rulingPlanet}</div>
                 <div class="card-effect">${card.effect}</div>
                 <div class="card-mana">Cost: ${card.manaCost} Prana</div>
