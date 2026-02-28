@@ -26,7 +26,7 @@ h1 {
   background-position: center;
   border: 1px solid #d4af37;
   border-radius: 8px;
-  padding: 20px;
+  padding: 40px 25px 25px 25px;
   width: 220px;
   box-shadow: 0 4px 15px rgba(212, 175, 55, 0.1);
   transition: transform 0.2s;
@@ -73,4 +73,87 @@ h1 {
   border: 1px solid #333;
   margin-bottom: 15px;
   filter: sepia(0.2) grayscale(0.1); /* A slight mystical filter */
+}
+
+/* Battle Arena Layout */
+#battle-arena {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Player & Enemy Panels */
+.entity-panel {
+  background-color: #1a1a1a;
+  border: 1px solid #d4af37;
+  border-radius: 8px;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.entity-panel h2 {
+  margin-top: 0;
+  color: #d4af37;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+}
+
+.quest-log {
+  color: #888;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+/* Health & Prana Bars */
+.stats-row {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+.stat-box {
+  width: 40%;
+}
+
+.stat-box span {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #ccc;
+}
+
+.health-bar-container,
+.mana-bar-container {
+  background-color: #333;
+  border: 1px solid #555;
+  border-radius: 4px;
+  height: 20px;
+  width: 100%;
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+
+.health-bar {
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    #8b0000,
+    #ff4500
+  ); /* Blood Red to Orange */
+  transition: width 0.3s ease-in-out;
+}
+
+.player-health {
+  background: linear-gradient(90deg, #006400, #32cd32); /* Healing Green */
+}
+
+.mana-bar {
+  height: 100%;
+  background: linear-gradient(90deg, #00008b, #00ffff); /* Ether Blue to Cyan */
+  transition: width 0.3s ease-in-out;
 }

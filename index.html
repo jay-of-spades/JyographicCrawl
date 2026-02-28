@@ -13,7 +13,42 @@
 
   <h1>Jyographic Crawl</h1>
 
-  <div id="game-board"></div>
+  <div id="battle-arena">
+
+    <div id="enemy-zone" class="entity-panel">
+      <h2>Affliction: Rakshasa of the 8th House</h2>
+      <div class="health-bar-container">
+        <div class="health-bar enemy-health" style="width: 100%;"></div>
+      </div>
+      <p>HP: 50 / 50</p>
+      <div id="enemy-active-card" style="margin-top: 15px; color: #ff4500; font-weight: bold; min-height: 20px;">
+      </div>
+    </div>
+
+    <div id="game-board"></div>
+
+    <div id="player-zone" class="entity-panel">
+      <h2>Prince of Hastinapura</h2>
+      <p class="quest-log">Quest: Cure the King's Surya Affliction</p>
+      <div class="stats-row">
+        <div class="stat-box">
+          <span>Lagna (HP)</span>
+          <div class="health-bar-container">
+            <div class="health-bar player-health" style="width: 100%;"></div>
+          </div>
+          <span>100 / 100</span>
+        </div>
+        <div class="stat-box">
+          <span>Prana (Mana)</span>
+          <div class="mana-bar-container">
+            <div class="mana-bar" style="width: 30%;"></div>
+          </div>
+          <span>3 / 10</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
 
   <script src="engine.js"></script>
 
