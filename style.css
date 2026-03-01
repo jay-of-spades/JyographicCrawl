@@ -157,3 +157,24 @@ h1 {
   background: linear-gradient(90deg, #00008b, #00ffff); /* Ether Blue to Cyan */
   transition: width 0.3s ease-in-out;
 }
+/* --- style.css --- */
+
+/* Add this style to target your card description container */
+.card .details .description {
+  font-family:
+    'Athelas', 'Crimson Text', serif; /* Or whatever your description font is */
+  color: #ffd8a8; /* A bright, easily readable gold/cream color */
+
+  /* Apply a subtle background texture to the text block to isolate it */
+  background: rgba(20, 10, 5, 0.7); /* Deep brown/black, 70% opacity */
+
+  /* Padding and spacing to keep the text neat */
+  padding: 8px;
+  border-radius: 4px; /* Optional, slight rounding of the dark box */
+  line-height: 1.4;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* Strong shadow for extra definition */
+
+  /* Ensure the text is visible and not cut off */
+  max-height: 100px;
+  overflow-y: auto; /* Allow scrolling if description is long */
+}
